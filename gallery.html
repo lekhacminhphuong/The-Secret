@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Web supports users in choosing their Instagram theme
+    and giving filter formulas to obtain their selected theme">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="phuongle">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4">
+    <!-- Link to my CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Link of favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>The Secret Gallery</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-fluid" role="navigation">
+            <div class="header" role="menubar">
+                <div role="menuitem"><a id="gallery" href="./gallery.html" aria-label="Gallery Page"></a></div>
+                <div role="menuitem"><a id="search" href="./search.html" aria-label="Searching photo Page"></a></div>
+                <div id="title"><a href="./index.html" aria-label="Home Page">The Secret</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div id="filter" role="filter">
+            <p role="option" class="filter">Filter</p>
+            <p role="option" class="dark">Dark</p>
+            <p role="option" class="bright">Bright</p>
+            <p role="option" class="unlocks">Unlock Selection</p>
+            <p role="option" class="locks">Lock Selection</p>
+            <p role="option" class="reset">Reset</p>
+        </div>
+        <div id="sort" role="sort">
+            <p role="option" class="sort">Sort</p>
+            <p role="option" class="new">New</p>
+            <p role="option" class="featured">Featured</p>
+            <p role="option" class="editor">Editors' Picks</p>
+        </div>
+
+        <div class="list1" role="list">
+            <div id="1" class="image-container" role="listitem">
+                <a href="./main1.html">
+                        <img class="i1" src="./img/Gallery/1.png" alt="image 1">
+                        <div class="overlay">
+                            <div class="text">Unlock</div>
+                        </div>
+                </a>
+            </div>
+            <div id="2" class="image-container" role="listitem">
+                <a href="./main2.html">
+                    <img class="i2" src="./img/Gallery/2.png" alt="image 2">
+                    <div class="overlay">
+                            <div class="text">Unlock</div>
+                    </div>
+                </a>
+            </div>
+            <div id="3" class="image-container" role="listitem">
+                <a href="./main3.html">
+                    <img class="i3" src="./img/Gallery/3.png" alt="image 3" >
+                    <div class="overlay">
+                            <div class="text">Unlock</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="list2" role="list">
+            <div id="4" class="image-container" role="listitem">
+                <img class="i4" src="./img/Gallery/4.png" alt="image 4" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+            <div id="5" class="image-container" role="listitem">
+                <img class="i5" src="./img/Gallery/5.png" alt="image 5" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+            <div id="6" class="image-container" role="listitem">
+                <img class="i6" src="./img/Gallery/6.png" alt="image 6" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list3" role="list">
+            <div id="7" class="image-container" role="listitem">
+                <img class="i7" src="./img/Gallery/7.jpg" alt="image 7" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+            <div id="8" class="image-container" role="listitem">
+                <img class="i8" src="./img/Gallery/8.jpg" alt="image 8" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+            <div id="9" class="image-container" role="listitem">
+                <img class="i9" src="./img/Gallery/9.jpg" alt="image 9" onclick="lockAlert()">
+                <div class="overlay">
+                        <div class="text" onclick="lockAlert()">Lock</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2019 The Secret</p>
+    </footer>
+
+    <!-- include JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>

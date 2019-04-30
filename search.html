@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Web supports users in choosing their Instagram theme
+    and giving filter formulas to obtain their selected theme">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="phuongle">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4">
+    <!-- Link to my CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Link of favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>The Secret Search</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-fluid" role="navigation">
+            <div class="header" role="menubar">
+                <div role="menuitem"><a id="gallery" href="./gallery.html" aria-label="Gallery Page"></a></div>
+                <div role="menuitem"><a id="search" href="" aria-label="Searching photo"></a></div>
+                <div id="title"><a href="./index.html" aria-label="Home Page">The Secret</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <h1>Gallery from other sources</h1>
+        <div class="dropdown">
+            <div class="dropmenu"> Searching photos by Categories
+                <div class="dropdown-content">
+                    <a role="option" class="architecture" id="251528" href="#">Architecture</a>
+                    <a role="option" class="nature" id="1536617" href="#">Nature</a>
+                    <a role="option" class="animal" id="142934" href="#">Animals</a>
+                    <a role="option" class="food" id="139608" href="#">Food</a>
+                    <a role="option" class="people" id="167114" href="#">People</a>
+                    <a role="option" class="dance" id="2446638" href="#">Dance</a>
+                    <a role="option" class="bw" id="2737036" href="#">Black and White</a>
+                </div>
+            </div>
+        </div>
+        <div role="list" class="container"></div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2019 The Secret</p>
+        <p>Data from <a href="https://source.unsplash.com/">https://source.unsplash.com</a></p>
+    </footer>
+
+    <!-- include JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

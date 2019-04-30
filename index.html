@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Web supports users in choosing their Instagram theme
+    and giving filter formulas to obtain their selected theme">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="phuongle">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4">
+    <!-- Link to my CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Link of favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>The Secret</title>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="container-fluid" role="navigation">
+            <div class="nav-toggle">
+                <div class="nav-toggle-bar"></div>
+            </div>
+            <div id="title"><a href="./index.html" aria-label="Home Page">The Secret</a></div>
+            <nav class="nav" role="navigation">
+                <div class="header" role="menubar">
+                    <ul class="hamburger">
+                        <li><a href="./search.html" aria-label="Searching photo Page">Searching Photos<i id="search"></i></a></li>
+                        <li><a href="./gallery.html" aria-label="Gallery Page">Filters Gallery<i id="gallery"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header> -->
+
+    <header>
+        <nav class="container-fluid" role="navigation">
+            <div class="header" role="menubar">
+                <div role="menuitem"><a id="gallery" href="./gallery.html" aria-label="Gallery Page"></a></div>
+                <div role="menuitem"><a id="search" href="./search.html" aria-label="Searching photo Page"></a></div>
+                <div id="title"><a href="./index.html" aria-label="Home Page">The Secret</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div id="content" role="contentinfo">
+            <div class="w3-content w3-section">
+                <img class="mySlides" id="slide1" class="img-fluid" src="img/slide1.png" alt="Slide 1 Image">
+                <img class="mySlides" id="slide1" class="img-fluid" src="img/slide2.png" alt="Slide 2 Image">
+                <img class="mySlides" id="slide1" class="img-fluid" src="img/slide3.png" alt="Slide 3 Image">
+            </div>
+            <div class="action">
+                <div class="contentbox" role="textbox">
+                    <p class="aboutus">About us ?</p>
+                    <p class="content" role="text">
+                        The Secret is the key of your new Intagram feed level.
+                        If you are curious about how to filtering and using editing apps efficiently,
+                        The Secret will give you the feature to filter and sort the list of filter formulas so as to
+                        find out your most favorite one. If you are curious about how to sticking with
+                        one theme perfectly, The Secret will give you the feature to calculate the matching percentages
+                        between your new editied photo and the existing one.
+                    </p>
+                </div>
+                <a class="imagebox" href="./gallery.html" aria-label="Gallery Page" role="button">
+                    <img class="image" src="img/image.png" alt="Image next to About Us content">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2019 The Secret</p>
+    </footer>
+
+    <!-- include JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
