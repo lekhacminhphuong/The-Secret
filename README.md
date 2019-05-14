@@ -43,4 +43,4 @@ Click [me](https://lekhacminhphuong.github.io/The-Secret/) to visit _The Secret_
 
 
 ### The Secret's Paper prototype
-![paper prototype](./img/paper-prototype.png)
+![paper prototype](./img/paper-prototype.jpg)
