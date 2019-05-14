@@ -29,7 +29,7 @@ Click [me](https://lekhacminhphuong.github.io/The-Secret/) to visit _The Secret_
 ### Why _The Secret_
 - The name of this web application is The Secret which means that the application will give you secret tips to obtain your secret and unique Instagram theme.
 
-- The Secret is built up the idea and designed by one of Instagram lovers. Therefore, it is obvious that Instagram users are the most prominent group of users that the web application would like to attack. 
+- The Secret is built up the idea and designed by one of Instagram lovers. Therefore, it is obvious that Instagram users are the most prominent group of users that the web application would like to attack.
 
 - So, what our application can do for their Instagram?
 
@@ -40,3 +40,7 @@ Click [me](https://lekhacminhphuong.github.io/The-Secret/) to visit _The Secret_
 - The web also allows users to search photos by given categories (data from [unsplash](https://source.unsplash.com/">https://source.unsplash.com))
 
 - Utilized HTML, CSS, and JavaScript to build an user interface.
+
+
+### The Secret's Paper prototype
+![paper prototype](./img/paper-prototype.png)
